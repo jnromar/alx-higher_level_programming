@@ -1,20 +1,8 @@
 #!/usr/bin/python3
+# 11-pow.py
 
 
 def pow(a, b):
-	# i want to create a variable that holds result of product.
-	res = 1
-	base = 1
-	numb = 0
+    """Return a to the power of b."""
+    return (a ** b
 
-	if b < 0:
-		numb = b
-		b = (-1) * b
-
-	for i in range(b):
-		res *= a
-		base = res * res
-
-	if numb  < 0:
-		res /= base
-	return 
